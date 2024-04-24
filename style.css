@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+.container1{
+    background-color: rgb(246, 246, 210);
+    color:rgb(255, 111, 0);
+    display:block;
+    width: 60vw;
+    height: auto;
+}
+
+.title{
+    display: inline-block;
+    margin: 2vh 3vw 2vh 3vw;
+    font-family: Tahoma,'Segoe UI', Verdana, sans-serif;
+    font-weight: 550;
+}
+.heading{
+    margin:38vh 3vw 30vh 3vw;
+    width: 60%;
+}  
+
+.main-heading{
+    font-size: 24px;
+}
+
+.sub-heading{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.container2{
+    background-color: white;
+    color: black;
+    display: block;
+    width:40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.get-started{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.buttons{
+    width: 100%;
+}
+.button{
+    color: white;
+    background-color: rgb(3, 3, 237);
+    margin: none;
+    width:32%;
+    padding:10px 0 10px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s box-shadow 0.15s;
+    margin-right: 2px;
+}
+.footer{   
+height:18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-text{
+    display: flex;
+    margin-top: 12px;
+}
+
+a{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.terms{
+    margin-right: 10px;
+}
+.privacy{
+    margin-left: 10px ;
+}
+
+.open-ai{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.38);
+    display: flex;
+    align-items: center;
+
+}
+.divider{
+    color: rgba(0, 0, 0, 0.38);
+}
+.open-ai img {
+    width: 14px;
+    height: 14px;
+    opacity: 0.4;
+    margin-right: 2px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 222);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.3);
+}
